@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Grill Food</title>
+</head>
+<body>
+  <header>
+    <div class="navigation container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img class="logo" src="/images/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Special</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Method</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid wrapper">
+      <div class="home">
+        <div class="header-content">
+          <img class="sides" src="/images/header-sides.png">
+          <div class="row justify-content-center wrapper">
+            <div class="col-md-8">
+              <div class="slidershow">
+                <div class="slides">
+                  <input type="radio" name="r" id="r1" checked>
+                  <input type="radio" name="r" id="r2">
+                  <input type="radio" name="r" id="r3">
+                  <input type="radio" name="r" id="r4">
+                  <input type="radio" name="r" id="r5">
+                  <div class="slide s1">
+                    <div class="opeaning-info">
+                      <h1>opeaning party 1</h1>
+                      <p>06/20/2020 - 7 P.M.</p>
+                    </div>
+                    <div class="header-cont">
+                      <p>FOOD - MUSIC - FRIENDS - FUN</p>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="opeaning-info">
+                      <h1>opeaning party 2</h1>
+                      <p>06/20/2020-7 P.M.</p>
+                    </div>
+                    <div class="header-cont">
+                      <p>FOOD - MUSIC - FRIENDS - FUN</p>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="opeaning-info">
+                      <h1>opeaning party 3</h1>
+                      <p>06/20/2020-7 P.M.</p>
+                    </div>
+                    <div class="header-cont">
+                      <p>FOOD - MUSIC - FRIENDS - FUN</p>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="navigation-slider">
+                  <label for="r1" class="bar"></label>
+                  <label for="r2" class="bar"></label>
+                  <label for="r3" class="bar"></label>
+                </div>
+              </div>
+              </div>
+              <!-- <div class="opeaning-info">
+                <h1>opeaning party</h1>
+                <p>06/20/2020-7 P.M.</p>
+              </div>
+              <div class="header-cont">
+                <p>FOOD - MUSIC - FRIENDS - FUN</p>
+              </div> -->
+              <!-- <div class="slider-img">
+                <img src="/images/slider-img.png">
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid wrapper">
+      <div class="menu">
+        <div class="row justify-content-center wrapper">
+          <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-12 col-sm-12"><h2>Menu</h2></div>
+            <div class="col-md-4">
+              <div class="column-1">
+                <img src="/images/menu-img1.png">
+                <div class="menu-1"><h3>chicken</h3>
+                <p><span>Chicken with salad </span> <span class="price">6,00</span></p>
+                <p><span>The Gold Chicken </span> <span class="price">11,00</span></p>
+                <p><span>Chicken whit sauce </span> <span class="price">8,00</span></p>
+              </div>
+              <div class="menu-2"><h3>slides</h3>
+                <p><span>Potato fries</span> <span class="price">6,00</span></p>
+                <p><span>Mushrooms</span> <span class="price">11,00</span></p>
+                <p><span>Roasted Brocoli</span> <span class="price">8,00</span></p>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="column-1">
+                <img src="/images/menu-img2.png">
+                <div class="menu-1"><h3>beef</h3>
+                <p><span>Prime steak</span> <span class="price">6,00</span></p>
+                <p><span>Steak Beef (700 gr.)</span> <span class="price">11,00</span></p>
+                <p><span>Entrecôte </span> <span class="price">8,00</span></p>
+              </div>
+              <div class="menu-2"><h3>Drinks</h3>
+                <p><span>Soft Drink</span> <span class="price">2,50</span></p>
+                <p><span>Beer</span> <span class="price">4,50</span></p>
+                <p><span>Wine Glass</span> <span class="price">4,50</span></p>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="column-1">
+                <img src="/images/menu-img3.png">
+                <div class="menu-1"><h3>pork</h3>
+                <p><span>Pork Cheeks</span> <span class="price">6,00</span></p>
+                <p><span>Iberian Special Cut</span> <span class="price">11,00</span></p>
+                <p><span>Pork Chop</span> <span class="price">8,00</span></p>
+              </div>
+              <div class="menu-2"><h3>slides</h3>
+                <p><span>Cheesecake</span> <span class="price">6,00</span></p>
+                <p><span>Tiramisu</span> <span class="price">5,00</span></p>
+                <p><span>Chocolate Mousse</span> <span class="price">8,00</span></p>
+              </div>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="discount">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="left-img">
+                <img src="/images/discount-img.png">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-content">
+                <p>
+                  Get a <br>
+                <span class="dis-span">25% discount</span> <br>
+               on your next dinner
+                </p>
+                <div class="btn"><a href="#">Click here</a></div>
+                <div class="dis-logo"><img src="/images/Logo.png"></div>
+                <div class="logo-btm"><p>The Meat Experience</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container-fluid wrapper">
+    <div class="special">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="opeaning-info special-top">
+              <h1>special of the month</h1>
+              <p>Lorem ipsum</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="specail-cont">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  nostrud exercitation ullamco laboris.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-img-special">
+              <img src="/images/special-img1.png">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-img-special">
+              <img src="/images/special-img-2.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid wrapper">
+    <div class="method">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="method-left-img">
+              <img src="/images/method-img.png">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="method-right-cont">
+              <h2>our method</h2>
+              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid wrapper">
+    <div class="music">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="music-top">
+              <h2>live music</h2>
+              <p class="p1">Jazz Night</p>
+              <p class="p2">Every Friday</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="music-cont">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row wrapper">
+          <div class="col-md-12 wrapper">
+            <div class="music-img">
+              <img src="/images/music-img.png">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="footer-logo">
+              <a href="#"><img src="/images/Logo.png"></a>
+              <div class="logo-btm"><p>-The Meat Experience-</p></div>
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="footer-cont">
+              <h2>open</h2>
+              <p>Mon.-Thurs.: 12AM - 11PM</p>
+              <p>Fri. - Sun.: 9AM - 12PM</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-menu">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-6">
+                    <ul>
+                      <li><a href="#">home</a></li>
+                      <li><a href="#">about</a></li>
+                      <li><a href="#">contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-6">
+                    <ul>
+                      <li><a href="#">block</a></li>
+                      <li><a href="#">cookies</a></li>
+                      <li><a href="#">site map</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-btm">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-btm-left">
+                <p>Madison Street, 30 - City</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-social">
+                <a href="#"><img src="/images/Instagram2.png"></a>
+                <a href="#"><img src="/images/Facebook2.png"></a>
+                <a href="#"><img src="/images/Twitter2.png"></a>
+                <a href="#"><img src="/images/Youtube2.png"></a>
+                <a href="#">@Grill_House</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
